@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Jack Schumacher Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -142,13 +142,12 @@ params:
   # 
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
+  enableCustomHTML: true
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+    - name: jackrschumacher.com
+      # description: The main servers are located here.
+      closed: false
+
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -158,20 +157,31 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: www.jackrschumacher.com
+      description: My main site
+      category: jackrschumacher.com
+      link: https://www.jackrschumacher.com
+      partial: custom/hugo-badge.html
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fjackrschumacher-com%2Fmain%2Fjackrschumacher-com%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+    - name: links.jackrschumacher.com
+      description: My links
+      category: jackrschumacher.com
+      link: https://links.jackrschumacher.com
+      # partial: custom/hugo-badge.html
+      # badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fjackrschumacher-links%2Fmain%2Flinks%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+    - name: uahnotes-md.jackrschumacher.com
+      description: UAH-Notes-md
+      category: jackrschumacher.com
+      link: https://uahnotes-md.jackrschumacher.com
+      partial: custom/hugo-badge.html
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-Notes-md%2Fmain%2Fuahnotes-md%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+    - name: cyber.jackrschumacher.com
+      description: UAH-Notes-md
+      category: jackrschumacher.com
+      link: https://uahnotes-md.jackrschumacher.com
+      partial: custom/hugo-badge.html
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-Notes-md%2Fmain%2Fuahnotes-md%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+  
 
   # What date format to use?
   #
@@ -276,7 +286,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -286,8 +296,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: logo.png
-
+  logo: android-chrome-192x192.png
   # This is the description that is shown
   # on the footer and meta tags.
   #
@@ -298,10 +307,10 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+   -
+     name: Site uptimes
+     link: https://stats.uptimerobot.com/1Ctp1MdrMI
 
   # Disable complex server-side
   # calculations that may impact
