@@ -1,0 +1,25 @@
+{{/* "small" render view for affected-system pages, used when the /affected/
+     section index lists its children. The theme only ships issues/small.html,
+     so without this Hugo fails with: template "small" not found. */}}
+{{ $title := .Title }}
+{{ $incidents := where .Site.RegularPages "Params.section" "issue" }}
+{{ $active := where $incidents "Params.resolved" "=" false }}
+{{ $componentIssues := where $active "Params.affected" "intersect" (slice $title) }}
+
+{{ $isDown := where $componentIssues "Params.severity" "=" "down" }}
+{{ $isDisrupted := where $componentIssues "Params.severity" "=" "disrupted" }}
+{{ $isMaintenance := where $componentIssues "Params.severity" "=" "notice" }}
+
+<a href="{{ .Permalink }}" class="issue no-underline">
+  <h3>{{ $title }}</h3>
+
+  {{ if gt (len $isDown) 0 }}
+  <strong style="color: {{ .Site.Params.down }}">■ {{ T "thisIsDown" }}</strong>
+  {{ else if gt (len $isDisrupted) 0 }}
+  <strong style="color: {{ .Site.Params.disrupted }}">▲ {{ T "thisIsDisrupted" }}</strong>
+  {{ else if gt (len $isMaintenance) 0 }}
+  <strong style="color: {{ .Site.Params.notice }}">◆ {{ T "thisIsMaintenance" }}</strong>
+  {{ else }}
+  <strong style="color: {{ .Site.Params.ok }}">◆ {{ T "thisIsOk" }}</strong>
+  {{ end }}
+</a>

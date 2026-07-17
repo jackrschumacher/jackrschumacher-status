@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Jack Schumacher Status
+title: Jack Schumacher - Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -171,6 +171,12 @@ params:
       link: https://links.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fjackrschumacher-links%2Fmain%2Fjackrschumacher-links%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+    - name: status.jackrschumacher.com
+      description: Status page for my sites
+      category: jackrschumacher.com
+      link: https://status.jackrschumacher.com
+      partial: custom/hugo-badge.html
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fjackrschumacher-status%2Fmaster%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: uahnotes-md.jackrschumacher.com
       description: UAH-Notes-md
       category: jackrschumacher.com
@@ -361,7 +367,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  # description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
 
   # Tabs on homepage
   # Uncomment to enable.
