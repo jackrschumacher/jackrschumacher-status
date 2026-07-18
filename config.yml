@@ -178,7 +178,7 @@ params:
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fjackrschumacher-status%2Fmaster%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: uahnotes-md.jackrschumacher.com
-      description: UAH-Notes-md
+      description: UAH-Notes but in plain markdown and built in hugo
       category: jackrschumacher.com
       link: https://uahnotes-md.jackrschumacher.com
       partial: custom/hugo-badge.html
@@ -189,13 +189,13 @@ params:
       link: https://uahnotes.jackrschumacher.com
       partial: custom/hugo-badge.html
     - name: cyber.jackrschumacher.com
-      description: UAH-Notes-md
+      description: Cybersecurity notes
       category: jackrschumacher.com
       link: https://uahnotes-md.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-Notes-md%2Fmain%2Fuahnotes-md%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: benchmarks.jackrschumacher.com
-      description: Benchmarks
+      description: Benchmarks for my devices
       category: jackrschumacher.com
       link: https://benchmarks.jackrschumacher.com
       partial: custom/hugo-badge.html
@@ -211,7 +211,7 @@ params:
       category: jackrschumacher.com
       link: https://punchcard.jackrschumacher.com
       partial: custom/hugo-badge.html
-      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-PHL-101-Final-Project%2Fmain%2Fspace-art%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo)](https://github.com/jackrschumacher/UAH-PHL-101-Final-Project
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-PHL-101-Final-Project%2Fmain%2Fspace-art%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: frcdashdocs.jackrschumacher.com
       description: FRC Match Dashboard documentation
       category: jackrschumacher.com
