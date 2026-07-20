@@ -191,9 +191,9 @@ params:
     - name: cyber.jackrschumacher.com
       description: Cybersecurity notes
       category: jackrschumacher.com
-      link: https://uahnotes-md.jackrschumacher.com
+      link: https://cyber.jackrschumacher.com
       partial: custom/hugo-badge.html
-      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-Notes-md%2Fmain%2Fuahnotes-md%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fcyber-notes%2Fmain%2Fcyber-notes%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: benchmarks.jackrschumacher.com
       description: Benchmarks for my devices
       category: jackrschumacher.com
@@ -285,6 +285,7 @@ params:
   # Default: `true`
   # BOOLEAN; `true`, `false`
   useRelativeTime: true
+  
  
   # If enabled, doesn't show seconds on relative times.
   #
