@@ -1,7 +1,7 @@
 ---
 title: todoiststats.com will be disabled
 date: 2026-07-19 23:00:00
-dateResolved: 2027-01-27 00:00:00
+resolvedWhen: 2027-01-27 00:00:00
 resolved: false
 severity: notice
 affected:
