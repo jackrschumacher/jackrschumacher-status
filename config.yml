@@ -142,6 +142,7 @@ params:
   # 
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
+  enableUptimeHistogram: true
   enableCustomHTML: true
   categories:
     - name: jackrschumacher.com
@@ -149,6 +150,7 @@ params:
       closed: false
     - name: Other sites
       closed: true
+    
 
 
   # These are your systems. Change them to
@@ -200,16 +202,10 @@ params:
       link: https://benchmarks.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fbenchmarks%2Fmain%2Fbenchmarks%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
-    # - name: dev.jackrschumacher.com
-    #   description: Jack Schumacher Development
-    #   category: jackrschumacher.com
-    #   link: https://dev.jackrschumacher.com
-    #   partial: custom/hugo-badge.html
-    #   badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fdev-jackrschumacher-com%2Fmain%2Fjackrschumacher-dev%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: space-art.jackrschumacher.com
       description: PHL 101 Final Project
       category: jackrschumacher.com
-      link: https://punchcard.jackrschumacher.com
+      link: https://space-art.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-PHL-101-Final-Project%2Fmain%2Fspace-art%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: frcdashdocs.jackrschumacher.com
@@ -219,11 +215,11 @@ params:
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FFRC-Match-Dashboard-docs%2Fmain%2Ffrc-match-dashboard-docs%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: cyberchef.jackrschumacher.com
-      description: CyberChef
+      description: My personally hosted instance of CyberChef
       category: jackrschumacher.com
       link: https://cyberchef.jackrschumacher.com
     - name: punchcard.jackrschumacher.com
-      description: Punchcard simulator
+      description: IBM Punch Card Decoder & Creator
       category: jackrschumacher.com
       link: https://punchcard.jackrschumacher.com
     - name: www.jawn.uk
