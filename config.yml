@@ -371,9 +371,11 @@ params:
   #
   # Format:
   customTabs:
-   -
-     name: Site uptimes
-     link: https://stats.uptimerobot.com/1Ctp1MdrMI
+  - name: UptimeRobot
+    link: https://stats.uptimerobot.com/1Ctp1MdrMI
+  - name: About
+    link: "/pages/about"
+
 
   # Disable complex server-side
   # calculations that may impact
