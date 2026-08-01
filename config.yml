@@ -214,6 +214,10 @@ params:
       link: https://frcdashdocs.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FFRC-Match-Dashboard-docs%2Fmain%2Ffrc-match-dashboard-docs%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
+    - name: rss.jackrschumacher.com
+      description: My personally hosted instance of FreshRSS
+      category: jackrschumacher.com
+      link: https://rss.jackrschumacher.com
     - name: cyberchef.jackrschumacher.com
       description: My personally hosted instance of CyberChef
       category: jackrschumacher.com
