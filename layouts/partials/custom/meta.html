@@ -1,0 +1,27 @@
+<!--
+
+Site-level overrides for cState. Shadows the theme's
+partials/custom/meta.html, so the theme's font loading
+is preserved below.
+
+https://github.com/cstate/cstate/wiki/Customization
+
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+	rel="stylesheet">
+<style>
+	html, body {
+		font-family: 'DM Sans', sans-serif;
+	}
+
+	/* The status label is float: right, and .histogram is a flex container,
+	   so it shrinks beside the float instead of dropping below it. On narrow
+	   screens long component names push the label onto the histogram's line,
+	   halving the bar width. Clearing keeps every histogram full width. */
+	.histogram-container {
+		clear: both;
+	}
+</style>
