@@ -1,6 +1,7 @@
 ---
 title: dev.jackrschumacher.com is disabled
 date: 2026-07-19 23:00:00
+section: issue
 informational: true
 ---
 
