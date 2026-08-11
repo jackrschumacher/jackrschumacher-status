@@ -8,4 +8,4 @@ affected:
   - www.todoiststats.com
 ---
 
-[todoiststats.com](https://www.todoiststats.com) will be disabled and released from my domain portfolio on January 27th, 2027.
+[todoiststats.com](https://www.todoiststats.com) will be disabled and released from my domain portfolio on January 27th, 2027. The site currently redirects to this status page.
