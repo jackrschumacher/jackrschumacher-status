@@ -190,6 +190,12 @@ params:
       category: jackrschumacher.com
       link: https://uahnotes.jackrschumacher.com
       partial: custom/hugo-badge.html
+    - name: astra.jackrschumacher.com
+      description: ASTRA Notes
+      category: jackrschumacher.com
+      link: https://astra.jackrschumacher.com
+      partial: custom/hugo-badge.html
+      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FASTRA-Notes%2Fmaster%2Fastra-docs%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: cyber.jackrschumacher.com
       description: Cybersecurity notes
       category: jackrschumacher.com
@@ -230,7 +236,7 @@ params:
       description: Easily save FRC match videos from The Blue Alliance
       category: jackrschumacher.com
       link: https://frcmatchvideos.jackrschumacher.com
-   
+    
     - name: www.jawn.uk
       # description:
       category: Other sites
