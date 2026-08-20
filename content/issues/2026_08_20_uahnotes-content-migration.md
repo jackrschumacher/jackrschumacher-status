@@ -1,6 +1,6 @@
 ---
 title: uahnotes.jackrschumacher.com Content Migration
-date: 2026-08-20 13:11:28
+date: 2026-08-20 18:50:00
 resolved: false
 informational: true
 section: issue
