@@ -1,5 +1,5 @@
 ---
-title: benchmarks.jackrschumacher.com deprecation
+title: benchmarks.jackrschumacher.com is moving to devices.jackrschumacher.com
 date: 2026-08-23 03:30:00
 resolved: false
 informational: true

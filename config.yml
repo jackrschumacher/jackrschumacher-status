@@ -255,6 +255,10 @@ params:
       # description:
       category: Other sites
       link: https://www.logseqtoanki.com
+    - name: www.markdowntocards.com
+      # description:
+      category: Other sites
+      link: https://www.markdowntocards.com
     - name: www.rich-txt-to-md.uk
       # description:
       category: Other sites
