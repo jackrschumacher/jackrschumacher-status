@@ -1,5 +1,5 @@
 ---
-title: todoiststats.com will be disabled
+title: todoiststats.com Will Be Disabled
 date: 2026-07-19 23:00:00
 section: issue
 informational: true

@@ -1,5 +1,5 @@
 ---
-title: Connection timeout
+title: Connection Timeout
 date: 2026-04-08 12:06:27
 resolvedWhen: 2026-04-08 12:11:31
 resolved: true

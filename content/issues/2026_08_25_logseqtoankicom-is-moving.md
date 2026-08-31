@@ -1,5 +1,5 @@
 ---
-title: logseqtoanki.com is moving to markdowntocards.com
+title: logseqtoanki.com Is Moving to markdowntocards.com
 date: 2026-08-25 06:30:54
 resolved: false
 informational: true
