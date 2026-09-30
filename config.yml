@@ -179,12 +179,6 @@ params:
       link: https://status.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fjackrschumacher-status%2Fmaster%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
-    - name: uahnotes-md.jackrschumacher.com
-      description: UAH-Notes but in plain markdown and built in hugo
-      category: jackrschumacher.com
-      link: https://uahnotes-md.jackrschumacher.com
-      partial: custom/hugo-badge.html
-      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2FUAH-Notes-md%2Fmain%2Fuahnotes-md%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: uahnotes.jackrschumacher.com
       description: UAH-Notes
       category: jackrschumacher.com
@@ -202,12 +196,6 @@ params:
       link: https://cyber.jackrschumacher.com
       partial: custom/hugo-badge.html
       badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fcyber-notes%2Fmain%2Fcyber-notes%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
-    - name: benchmarks.jackrschumacher.com
-      description: Benchmarks for my devices
-      category: jackrschumacher.com
-      link: https://benchmarks.jackrschumacher.com
-      partial: custom/hugo-badge.html
-      badge: https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjackrschumacher%2Fdevices%2Fmain%2Fdevices%2F.hvm&query=%24&label=hugo&color=FF4088&logo=hugo
     - name: devices.jackrschumacher.com
       description: Information about my devices
       category: jackrschumacher.com

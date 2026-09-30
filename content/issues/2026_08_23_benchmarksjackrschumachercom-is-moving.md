@@ -1,7 +1,7 @@
 ---
 title: benchmarks.jackrschumacher.com Is Moving to devices.jackrschumacher.com
 date: 2026-08-23 03:30:00
-resolved: false
+resolved: true
 informational: true
 section: issue
 affected:
