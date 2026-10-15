@@ -7,9 +7,9 @@ This is the status page for my various websites.
 
 ## How it works
 
-This page is a static site built with [cState](https://github.com/cstate/cstate) and Hugo, hosted on Cloudflare. Incidents and maintenance notices are **posted manually** — a green "Operational" means no known issues have been reported, not that a robot checked the site seconds ago.
+This page is a static site built with [cState](https://github.com/cstate/cstate) and Hugo, hosted on Cloudflare. Incidents and maintenance notices are **posted manually** — a green "Operational" means no known issues have been reported.
 
-For automated, independent monitoring (hosted on separate infrastructure from my sites), see the [UptimeRobot page](https://stats.uptimerobot.com/1Ctp1MdrMI).
+For automated, independent monitoring, see the [UptimeRobot page](https://stats.uptimerobot.com/1Ctp1MdrMI).
 
 ## What the statuses mean
 
@@ -19,7 +19,7 @@ For automated, independent monitoring (hosted on separate infrastructure from my
 - **Down** — the site is unavailable.
 - **Disabled** — the site is intentionally offline or retired; not an outage.
 
-Most sites also show a badge with the Hugo version they were last built with.
+Some sites also show a badge with the Hugo version they were last built with.
 
 ## Updates
 
