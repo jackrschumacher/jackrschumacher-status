@@ -16,8 +16,6 @@ main() {
   HVM_EDITION=$(echo "$HVM_CONTENT" | cut -d'/' -f2) # e.g., standard
   RAW_VERSION="${HVM_VERSION#v}"                     # e.g., 0.163.3
 
-  export TZ=America/Chicago
-
   # Install Hugo
   echo "Installing Hugo ${RAW_VERSION} (${HVM_EDITION})..."
   if [ "$HVM_EDITION" = "extended" ]; then

@@ -1,7 +1,7 @@
 ---
 title: "October Monthly Maintenance"
-date: 2026-11-01 01:50:00
-resolvedWhen: 2026-11-01 02:25:00
+date: 2026-11-01T01:50:00-05:00
+resolvedWhen: 2026-11-01T01:25:00-06:00
 section: issue
 resolved: true
 affected:

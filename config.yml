@@ -53,6 +53,20 @@ title: Jack Schumacher - Status
 # BOOLEAN; `true`, `false`
 buildFuture: true
 
+# What time zone are the dates in issue
+# frontmatter written in?
+#
+# Hugo uses this to parse `date` and
+# `resolvedWhen` values that have no explicit
+# UTC offset. Without it, Hugo assumes UTC and
+# every timestamp is rendered 5–6 hours early.
+#
+# The TZ environment variable does NOT affect
+# this — it must be set here.
+#
+# See: https://gohugo.io/getting-started/configuration/#timezone
+timeZone: America/Chicago
+
 # What language do you want to use for the
 # html[lang] definition?
 #
@@ -267,8 +281,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM UTC
-  shortDateFormat: 15:04 UTC — Jan 2
+  dateFormat: January 2, 2006 at 3:04 PM MST
+  shortDateFormat: 15:04 MST — Jan 2
 
   # Should relative time (x min ago) be used?
   #
